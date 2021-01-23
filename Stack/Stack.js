@@ -18,6 +18,11 @@ class Stack {
         console.log(`${deleteItem} deleted`);
         return deleteItem;
     }
+
+    peek() {
+        console.log(`Top element is ${this.items[this.count - 1]}`);
+        return this.items[this.count - 1];
+    }
 }
 
 const stack = new Stack();
@@ -25,6 +30,8 @@ const stack = new Stack();
 stack.push(100);
 stack.push(200);
 stack.push(300);
+
+stack.peek();
 
 stack.pop();
 stack.pop();
