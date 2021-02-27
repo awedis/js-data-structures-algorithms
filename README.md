@@ -8,3 +8,5 @@
     - Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out). There are many real-life examples of a stack.
   - Linked List:
     - Linked List consists of nodes where each node contains a data field & a refernece(link) to the next node in the list.
+  - Queue:
+    - A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO).
