@@ -10,3 +10,5 @@
     - Linked List consists of nodes where each node contains a data field & a refernece(link) to the next node in the list.
   - Queue:
     - A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO).
+  - Priority Queue:
+    - Priority Queue is an extension of queue. Every item has a priority associated with it. An element with high priority is dequeued before an element with low priority. If two elements have the same priority, they are served according to their order in the queue.
